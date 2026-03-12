@@ -1,0 +1,53 @@
+:root {
+  /* Gold palette */
+  --gold:   #D4922A;
+  --gold-2: #F0B842;
+
+  /* Dark backgrounds */
+  --dark:   #050507;
+  --dark-2: #0d0d10;
+  --dark-3: #1a1a20;
+
+  /* Surfaces */
+  --glass:     #1e2840;
+  --concrete:  #1a1c24;
+
+  /* Light */
+  --light: #F0EAE0;
+
+  /* Neutral */
+  --gray: #666;
+
+  /* Typography */
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body:    'Montserrat', system-ui, sans-serif;
+
+  /* Spacing scale */
+  --space-xs:  0.25rem;
+  --space-sm:  0.5rem;
+  --space-md:  1rem;
+  --space-lg:  2rem;
+  --space-xl:  4rem;
+  --space-2xl: 8rem;
+
+  /* Layout */
+  --max-width:   1400px;
+  --nav-height:  80px;
+  --section-pad: 6rem;
+
+  /* Transitions */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --duration-fast:  150ms;
+  --duration-base:  300ms;
+  --duration-slow:  600ms;
+  --duration-xslow: 1200ms;
+
+  /* Z-index layers */
+  --z-base:    0;
+  --z-above:   10;
+  --z-overlay: 100;
+  --z-modal:   200;
+  --z-cursor:  1000;
+  --z-loader:  2000;
+}
