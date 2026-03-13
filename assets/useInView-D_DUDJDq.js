@@ -1,0 +1,1 @@
+import{r}from"./index-DuMVQueZ.js";const f=(t=.15)=>{const n=r.useRef(null),[i,o]=r.useState(!1);return r.useEffect(()=>{const e=n.current;if(!e)return;const s=new IntersectionObserver(([c])=>{c.isIntersecting&&(o(!0),s.unobserve(e))},{threshold:t});return s.observe(e),()=>s.disconnect()},[t]),{ref:n,isVisible:i}};export{f as u};
