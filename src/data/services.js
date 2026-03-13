@@ -1,3 +1,5 @@
+import { assetPath } from '../utils/assetPath';
+
 export const services = [
   {
     id: 1,
@@ -13,7 +15,7 @@ export const services = [
       'Risk Assessment',
     ],
     icon: '📐',
-    image: '/images/desk_helmet_drawing_ipad-1024x683.jpg',
+    image: assetPath('images/desk_helmet_drawing_ipad-1024x683.jpg'),
   },
   {
     id: 2,
@@ -29,7 +31,7 @@ export const services = [
       'Cost Management',
     ],
     icon: '🏢',
-    image: '/images/african-engineer-on-construction-site1d-q85gtp310i56grxg0hfhvoqkzmrs5qc4q59zgnop40.png',
+    image: assetPath('images/african-engineer-on-construction-site1d-q85gtp310i56grxg0hfhvoqkzmrs5qc4q59zgnop40.png'),
   },
   {
     id: 3,
@@ -45,7 +47,7 @@ export const services = [
       'Payment Plans',
     ],
     icon: '📦',
-    image: '/images/Construction-Materials-1170x781-1-1024x684.jpeg',
+    image: assetPath('images/Construction-Materials-1170x781-1-1024x684.jpeg'),
   },
   {
     id: 4,
@@ -61,6 +63,6 @@ export const services = [
       'As-Built Drawings',
     ],
     icon: '⚙️',
-    image: '/images/design_build_construction.jpg',
+    image: assetPath('images/design_build_construction.jpg'),
   },
 ];

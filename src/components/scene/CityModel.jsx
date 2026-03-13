@@ -2,8 +2,9 @@ import { useEffect, useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
 import { useThree } from '@react-three/fiber';
 import * as THREE from 'three';
+import { assetPath } from '../../utils/assetPath';
 
-const MODEL_PATH = '/scene/model_FINAL2.glb';
+const MODEL_PATH = assetPath('scene/model_FINAL2.glb');
 const TARGET_FOOTPRINT = 104;
 
 function CityModel() {

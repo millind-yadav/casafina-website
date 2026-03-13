@@ -4,13 +4,13 @@ function PostProcessing() {
   return (
     <EffectComposer>
       <Bloom
-        luminanceThreshold={0.1}
-        intensity={0.8}
+        luminanceThreshold={0.10}
+        intensity={0.1}
         mipmapBlur
       />
       <Vignette
-        offset={0.2}
-        darkness={0.85}
+        offset={0.16}
+        darkness={0.3}
       />
     </EffectComposer>
   );

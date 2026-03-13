@@ -6,6 +6,7 @@ import SectionTag from '../components/shared/SectionTag';
 import Button from '../components/shared/Button';
 import useInView from '../hooks/useInView';
 import { team } from '../data/team';
+import { assetPath } from '../utils/assetPath';
 
 /* ─── Reusable fade-up wrapper ─────────────────────────────────────── */
 function FadeUp({ children, delay = 0, style }) {
@@ -343,7 +344,7 @@ function About() {
                   overflow: 'hidden',
                 }}>
                   <img
-                    src="/images/IMG_1483-1-scaled-q8ju3z3rd07fm25z2hugvoyjdgj9o4kkrlbkl0n2pc.jpg"
+                    src={assetPath('images/IMG_1483-1-scaled-q8ju3z3rd07fm25z2hugvoyjdgj9o4kkrlbkl0n2pc.jpg')}
                     alt="Casafina team at work"
                     style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                     onError={(e) => {
